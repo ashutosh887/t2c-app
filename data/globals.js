@@ -1,6 +1,7 @@
 
 const globalStyles = {
-    primary: 'pink',
+    primary: '#1E2C25',
+    black: '#101810',
     secondary: 'black'
 }
 

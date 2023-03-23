@@ -1,13 +1,13 @@
 const servicesData = [
     {
         id: 1,
-        serviceName: 'LeaderBoard',
-        serviceIcon: 'leaderboard'
+        serviceName: 'Leaderboard',
+        serviceIcon: 'leaderboard',
     },
     {
         id: 2,
         serviceName: 'Stats',
-        serviceIcon: 'coronavirus'
+        serviceIcon: 'coronavirus',
     },
     {
         id: 3,
@@ -17,7 +17,17 @@ const servicesData = [
     {
         id: 4,
         serviceName: 'Proposals',
-        serviceIcon: 'approval'
+        serviceIcon: 'approval',
+    },
+    {
+        id: 5,
+        serviceName: 'Rewards',
+        serviceIcon: 'auto-awesome',
+    },
+    {
+        id: 6,
+        serviceName: 'About T2C',
+        serviceIcon: 'account-tree',
     }
 ]
 

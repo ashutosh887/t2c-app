@@ -6,8 +6,9 @@ import headerLogo from "../assets/logo.png"
 import Carousel from "../components/Carousel"
 import Services from "../components/Services"
 import globalStyles from "../data/globals"
+import HowItWorks from "../components/HowItWorks"
 
-const HomeScreen = () => {
+const HomeScreen = ({navigation}) => {
     const [currentAddress, setCurrentAddress] = useState(`Hold on... We're loading your location!`);
 
     const [locationServiceEnabled, setLocationServiceEnabled] = useState(false);
@@ -106,7 +107,7 @@ const HomeScreen = () => {
         <Carousel />
 
         {/* services */}
-        <Services />
+        <Services navigation={navigation} />
     </SafeAreaView>
   )
 }
