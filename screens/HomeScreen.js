@@ -92,7 +92,7 @@ const HomeScreen = ({navigation}) => {
                 <Text>{currentAddress}</Text>
             </View>
 
-            <Pressable style={{marginLeft: 'auto'}}>
+            <Pressable style={{marginLeft: 'auto'}} onPress={() => navigation.navigate('Profile')}>
                 <Image source={headerLogo} alt="T2C" style={styles.headerLogo} />
             </Pressable>
         </View>

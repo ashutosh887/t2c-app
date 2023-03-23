@@ -7,9 +7,10 @@ import DiscussionsScreen from "./screens/DiscussionsScreen";
 import ProposalsScreen from "./screens/ProposalsScreen";
 import RewardsScreen from "./screens/RewardsScreen";
 import AboutScreen from "./screens/AboutScreen";
+import SearchScreen from "./screens/SearchScreen";
+import ProfileScreen from "./screens/ProfileScreen"
 
-
-function StackNavigator (){
+function AppStackNavigator (){
     const Stack = createNativeStackNavigator();
     
     return (
@@ -22,9 +23,12 @@ function StackNavigator (){
                 <Stack.Screen name="Proposals" component={ProposalsScreen} />
                 <Stack.Screen name="Rewards" component={RewardsScreen} />
                 <Stack.Screen name="About T2C" component={AboutScreen} />
+
+                <Stack.Screen name="Search" component={SearchScreen} />
+                <Stack.Screen name="Profile" component={ProfileScreen} />
             </Stack.Navigator>
         </NavigationContainer>
     )
 }
 
-export default StackNavigator
+export default AppStackNavigator
