@@ -4,7 +4,20 @@ import React from 'react'
 const ProfileScreen = () => {
   return (
     <View>
-      <Text>ProfileScreen</Text>
+      {/* profile data */}
+      <View>
+
+      </View>
+
+      {/* PROPOSALS WRITTEN */}
+      <View>
+
+      </View>
+
+      {/* supported the orgs. */}
+      <View>
+
+      </View>
     </View>
   )
 }
