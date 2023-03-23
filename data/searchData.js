@@ -1,19 +1,19 @@
 // mock services data
-const searchData = [ 
+const searchData = [
     {
-        location:'HCL', 
+        location: 'HCL',
         kilometer: '2 km'
     },
     {
-        location:'K K Pharma', 
+        location: 'K K Pharma',
         kilometer: '5 km'
     },
     {
-        location:'Amazon', 
+        location: 'Amazon',
         kilometer: '12 km'
     },
     {
-        location:'Cipla', 
+        location: 'Cipla',
         kilometer: '22 km'
     }
 ]
