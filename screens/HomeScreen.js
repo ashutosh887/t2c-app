@@ -6,7 +6,6 @@ import headerLogo from "../assets/logo.png"
 import Carousel from "../components/Carousel"
 import Services from "../components/Services"
 import globalStyles from "../data/globals"
-import HowItWorks from "../components/HowItWorks"
 
 const HomeScreen = ({navigation}) => {
     const [currentAddress, setCurrentAddress] = useState(`Hold on... We're loading your location!`);
@@ -123,8 +122,8 @@ const styles = StyleSheet.create({
         fontWeight: '600'
     },
     headerLogo: {
-        width: 50,
-        height: 50,
+        width: 40,
+        height: 40,
     },
     searchBarView: {
         padding: 10,
