@@ -99,7 +99,7 @@ const HomeScreen = ({navigation}) => {
         {/* search bar */}
         <View style={styles.searchBarView}>
             <TextInput placeholder="Search nearby T2CHub" />
-            <Feather name="search" size={24} color={`${globalStyles.primary}`} />
+            <Feather name="search" size={24} color={`${globalStyles.primary}`} onPress={() => navigation.navigate('Search')} />
         </View>
 
         {/* image carousel */}
