@@ -16,7 +16,7 @@ const AboutScreen = () => {
         </Text>
 
         {/* about us */}
-        <View style={{ marginTop: 20 }}>
+        <View style={{ marginTop: 20, flex: 1 }}>
           <Text>
             Welcome to our DAO-based platform that is dedicated to creating a
             sustainable future by incentivizing positive environmental action.
@@ -36,11 +36,13 @@ const AboutScreen = () => {
             sustainable products and services, access to exclusive events, and
             even donations to your favorite environmental charities.
           </Text>
-          At our core, we are driven by the belief that creating a sustainable
-          future requires a collective effort. We invite you to join our
-          community of like-minded individuals and businesses who are committed
-          to making a positive impact on the world around us. Together, we can
-          create a more sustainable, equitable, and prosperous future for all.
+          <Text>
+            At our core, we are driven by the belief that creating a sustainable
+            future requires a collective effort. We invite you to join our
+            community of like-minded individuals and businesses who are committed
+            to making a positive impact on the world around us. Together, we can
+            create a more sustainable, equitable, and prosperous future for all.
+          </Text>
           <Text>
             We are also trying to imply the concept of inclusivity by urging
             people to actually participate on the individual level and deliver a
@@ -50,12 +52,12 @@ const AboutScreen = () => {
         </View>
       </View>
 
-      {/* team */}
+      {/* team
       <View style={{ flex: 1, alignItems: "center" }}>
         <Text style={{ fontSize: 15 }}>Maintained and Developed by:</Text>
 
         <Text style={{ fontSize: 20 }}>Ashutosh, Shouryam and Dinki</Text>
-      </View>
+      </View> */}
     </View>
   );
 };
